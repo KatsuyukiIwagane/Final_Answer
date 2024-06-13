@@ -127,4 +127,4 @@ for j in range(3):
 
 data = {'店舗名': Shop_Name_List_Sum[:50], '電話番号': Shop_Call_List_Sum[:50], 'メールアドレス':Shop_Mail_List_Sum[:50], '都道府県':prefecture_list_Sum[:50], '市区町村':municipalities_list_Sum[:50], '番地':number_list_Sum[:50], '建物名':building_list_Sum[:50], 'URL':Shop_URL_List_Sum[:50], 'SSL':Shop_SSL_List_Sum[:50]}
 dateframe = pd.DataFrame(data)
-dateframe.to_csv('Exercise_for_Pool/python/ex1_web-scraping/1-2.csv', index=False, encoding="utf-8-sig")
+dateframe.to_csv('Exercise_for_Pool/python/ex1_web-scraping/1.2.csv', index=False, encoding="utf-8-sig")
